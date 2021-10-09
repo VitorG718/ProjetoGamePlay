@@ -1,5 +1,5 @@
 //
-//  Anchor+Background.swift
+//  Constraints+Background.swift
 //  ProjetoGamePlay
 //
 //  Created by Vitor Gledison Oliveira de Souza on 09/10/21.
@@ -25,23 +25,23 @@ extension UIViewController {
 
 extension UIView {
     
-    func anchor(
-        top: NSLayoutYAxisAnchor? = nil,
-        bottom: NSLayoutYAxisAnchor? = nil,
+    func addConstraints(
         leading: NSLayoutXAxisAnchor? = nil,
-        trailing: NSLayoutXAxisAnchor? = nil,
-        left: NSLayoutXAxisAnchor? = nil,
-        right: NSLayoutXAxisAnchor? = nil,
-        paddingTop: CGFloat? = 0,
-        paddingBottom: CGFloat? = 0,
         paddingLeading: CGFloat? = 0,
+        trailing: NSLayoutXAxisAnchor? = nil,
         paddingTrailing: CGFloat? = 0,
+        left: NSLayoutXAxisAnchor? = nil,
         paddingLeft: CGFloat? = 0,
+        right: NSLayoutXAxisAnchor? = nil,
         paddingRight: CGFloat? = 0,
-        width: NSLayoutDimension? = nil,
         height: NSLayoutDimension? = nil,
-        widthConstant: CGFloat? = nil,
         heightConstant: CGFloat? = nil,
+        width: NSLayoutDimension? = nil,
+        widthConstant: CGFloat? = nil,
+        top: NSLayoutYAxisAnchor? = nil,
+        paddingTop: CGFloat? = 0,
+        bottom: NSLayoutYAxisAnchor? = nil,
+        paddingBottom: CGFloat? = 0,
         centerX: NSLayoutXAxisAnchor? = nil,
         centerY: NSLayoutYAxisAnchor? = nil
     ) {

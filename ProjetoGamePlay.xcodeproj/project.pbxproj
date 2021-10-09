@@ -12,7 +12,7 @@
 		4E82F7E5270B786E00D7A111 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E82F7E4270B786E00D7A111 /* LoginViewController.swift */; };
 		4E82F7EA270B787100D7A111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E82F7E9270B787100D7A111 /* Assets.xcassets */; };
 		4E82F7ED270B787100D7A111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E82F7EB270B787100D7A111 /* LaunchScreen.storyboard */; };
-		4EAD57D127115230003B7234 /* Anchor+Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD57D027115230003B7234 /* Anchor+Background.swift */; };
+		4EAD57D127115230003B7234 /* Constraints+Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD57D027115230003B7234 /* Constraints+Background.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		4E82F7EC270B787100D7A111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E82F7EE270B787100D7A111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E82F7F4270E30BB00D7A111 /* ProjetoGamePlay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjetoGamePlay.entitlements; sourceTree = "<group>"; };
-		4EAD57D027115230003B7234 /* Anchor+Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Anchor+Background.swift"; sourceTree = "<group>"; };
+		4EAD57D027115230003B7234 /* Constraints+Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constraints+Background.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 			children = (
 				4E34843527113D3900AFE2D6 /* Storyboards */,
 				4E82F7E4270B786E00D7A111 /* LoginViewController.swift */,
-				4EAD57D027115230003B7234 /* Anchor+Background.swift */,
+				4EAD57D027115230003B7234 /* Constraints+Background.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EAD57D127115230003B7234 /* Anchor+Background.swift in Sources */,
+				4EAD57D127115230003B7234 /* Constraints+Background.swift in Sources */,
 				4E82F7E5270B786E00D7A111 /* LoginViewController.swift in Sources */,
 				4E82F7E1270B786E00D7A111 /* AppDelegate.swift in Sources */,
 				4E82F7E3270B786E00D7A111 /* SceneDelegate.swift in Sources */,
