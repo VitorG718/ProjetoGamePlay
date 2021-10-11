@@ -13,6 +13,7 @@
 		4E82F7EA270B787100D7A111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E82F7E9270B787100D7A111 /* Assets.xcassets */; };
 		4E82F7ED270B787100D7A111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E82F7EB270B787100D7A111 /* LaunchScreen.storyboard */; };
 		4EAD57D127115230003B7234 /* Constraints+Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD57D027115230003B7234 /* Constraints+Background.swift */; };
+		4EFA819C271404B1003B3D6F /* DiscordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA819B271404B1003B3D6F /* DiscordButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		4E82F7EE270B787100D7A111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E82F7F4270E30BB00D7A111 /* ProjetoGamePlay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjetoGamePlay.entitlements; sourceTree = "<group>"; };
 		4EAD57D027115230003B7234 /* Constraints+Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constraints+Background.swift"; sourceTree = "<group>"; };
+		4EFA819B271404B1003B3D6F /* DiscordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		4E34843227113CEE00AFE2D6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4EFA819A2714046F003B3D6F /* Components */,
 				4E34843527113D3900AFE2D6 /* Storyboards */,
 				4E82F7E4270B786E00D7A111 /* LoginViewController.swift */,
 				4EAD57D027115230003B7234 /* Constraints+Background.swift */,
@@ -83,6 +86,14 @@
 				4E82F7EE270B787100D7A111 /* Info.plist */,
 			);
 			path = ProjetoGamePlay;
+			sourceTree = "<group>";
+		};
+		4EFA819A2714046F003B3D6F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4EFA819B271404B1003B3D6F /* DiscordButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EAD57D127115230003B7234 /* Constraints+Background.swift in Sources */,
+				4EFA819C271404B1003B3D6F /* DiscordButton.swift in Sources */,
 				4E82F7E5270B786E00D7A111 /* LoginViewController.swift in Sources */,
 				4E82F7E1270B786E00D7A111 /* AppDelegate.swift in Sources */,
 				4E82F7E3270B786E00D7A111 /* SceneDelegate.swift in Sources */,
