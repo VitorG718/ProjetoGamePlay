@@ -112,8 +112,6 @@ class LoginViewController: UIViewController {
             paddingTop: 40.0,
             centerX: view.centerXAnchor
         )
-        image.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.47).isActive = true
-        image.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.95).isActive = true
         
         imageBackground.addConstraints(
             leading: view.leadingAnchor,
@@ -124,8 +122,13 @@ class LoginViewController: UIViewController {
     }
   
     override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
         setBackground()
         textView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: view.frame.height * 0.5).isActive = true
+        
+        let scaleFactor = view.bounds.width / 375.0
+        image.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
+        image.heightAnchor.constraint(equalToConstant: 407 * scaleFactor).isActive = true
+        
+        super.viewDidLayoutSubviews()
     }
 }
